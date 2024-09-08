@@ -1,32 +1,91 @@
 # hc_presentation
 This is my presentation of part-time learning
 
-## 图形学
+## Games106 Theory and Practice of Modern Graphic Rendering Pipeline
 
 ### Games106 homework1
 
-采用 C++ Vulkan glsl
+C++ Vulkan glsl
 
-实现：
-1. gltf模型加载
-2. 骨骼动画
-3. pbr材质
-4. tonemapping后处理
+Implement
+1. Loading gltf models.
+2. Skeleton animation.
+3. PBR texture.
+4. Tonemapping post process
 
-![hw1](./resource/image/Games106_hw1_1.png)
+![hw1](./resource/Games106/hw1_1.png)
 
-[动画演示](https://www.bilibili.com/video/BV1TS421w7XU/?spm_id_from=333.999.0.0&vd_source=42933a8483f1416468971bf46a437627)
+[video](https://www.bilibili.com/video/BV1TS421w7XU/?spm_id_from=333.999.0.0&vd_source=42933a8483f1416468971bf46a437627)
 
 
 ### Games106 homework2 
 
-采用 C++ Vulkan glsl
+C++ Vulkan glsl
 
-实现：
-1. Visually Lossless Content and Motion Adaptive Shading in Games 论文中的的描述。根据画面内容动态调整 shading rate。
-2. Content Adaptive Variable Shading Rate 根据画面内容的颜色变化程度。
-3. Motion Adaptive Variable Shading Rate 根据前后帧的 Motion Vector。
+Implement
+1. Paper Visually Lossless Content and Motion Adaptive Shading in Games.
+2. Content Adaptive Variable Shading Rate.
+3. Motion Adaptive Variable Shading Rate.
 
-![hw1](./resource/image/Games106_hw2_1.png)
+![hw1](./resource/Games106/hw2_1.png)
 
-[动画演示](https://www.bilibili.com/video/BV1ti421Z7ac/?spm_id_from=333.999.0.0&vd_source=42933a8483f1416468971bf46a437627)
+[video](https://www.bilibili.com/video/BV1ti421Z7ac/?spm_id_from=333.999.0.0&vd_source=42933a8483f1416468971bf46a437627)
+
+
+## Games202 Real-Time High Quality Rendering
+
+### Games202 homework1
+
+Webgl glsl
+
+Implement
+
+1. PCF(Percentage Closer Filter) shadow mapping
+
+![hw1_pcf](./resource/Games202/hw1_PCF.PNG)
+
+2. PCSS(Percentage Closer Soft Shadow) shadow mapping
+
+![hw1_pcss](./resource/Games202/hw1_PCSS.PNG)
+
+
+### Games202 homework2
+
+C++ Webgl glsl
+
+C++ for preprocessing
+
+Webgl glsl for real-time rendering
+
+Implement
+
+1. PRT(Precomputed Radiance Transfer)
+
+![hw2_PRT_Rotation_GraceCathedral](./resource/Games202/hw2_PRT_Rotation_GraceCathedral.gif)
+
+
+### Games202 homework3
+
+Webgl glsl
+
+Implement
+
+1 SSR (Screen Space Ray Tracing), 用 mipmap 实现加速
+
+sample count 5
+
+![hw3_SSR_5sample](./resource/Games202/hw3_SSR_5sample.png)
+
+sample count 10
+
+![hw3_SSR_5sample](./resource/Games202/hw3_SSR_10sample.png)
+
+### Games202 homework4
+
+Webgl glsl
+
+Implement
+
+1 PBR
+
+![hw4_pbr](./resource/Games202/hw4_pbr.png)
