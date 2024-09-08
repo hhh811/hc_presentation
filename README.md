@@ -70,7 +70,7 @@ Webgl glsl
 
 Implement
 
-1 SSR (Screen Space Ray Tracing), 用 mipmap 实现加速
+1 SSR (Screen Space Ray Tracing), using mipmap for accelerating
 
 sample count 5
 
